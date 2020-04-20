@@ -9,12 +9,12 @@ use humhub\widgets\FooterMenu;
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12 col-md-3">
+        <div class="col-xs-12 col-md-2">
             <?= Menu::widget(); ?>
             <?= Sidebar::widget(); ?>
             <?= FooterMenu::widget(['location' => FooterMenu::LOCATION_SIDEBAR]); ?>
         </div>
-        <div class="col-xs-12 col-md-9">
+        <div class="col-xs-12 col-md-10">
             <?= $content; ?>
         </div>
     </div>

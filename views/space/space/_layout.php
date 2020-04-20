@@ -23,7 +23,7 @@ $space = $context->contentContainer;
         </div>
     </div>
     <div class="row space-content">
-        <div class="col-xs-12 col-md-3">
+        <div class="col-xs-12 col-md-2">
             <div class="layout-nav-container">
                 <?= Menu::widget(['space' => $space]); ?>
                 <br>
@@ -35,7 +35,7 @@ $space = $context->contentContainer;
                 </div>
             <?php endif; ?>
         </div>
-        <div class="col-xs-12 col-md-9 layout-content-container">
+        <div class="col-xs-12 col-md-10 layout-content-container">
             <?= SpaceContent::widget(['contentContainer' => $space, 'content' => $content]) ?>
         </div>
     </div>
