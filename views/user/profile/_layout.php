@@ -15,7 +15,7 @@ $user = $this->context->contentContainer;
         </div>
     </div>
     <div class="row profile-content">
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-3">
             <div class="layout-nav-container">
                 <?= ProfileMenu::widget(['user' => $user]); ?>
             </div>
@@ -26,7 +26,7 @@ $user = $this->context->contentContainer;
                 </div>
             <?php endif; ?>
         </div>
-        <div class="col-xs-12 col-md-8 layout-content-container">
+        <div class="col-xs-12 col-md-9 layout-content-container">
             <?= $content; ?>
             <?php if (!$this->hasSidebar()): ?>
                 <?= FooterMenu::widget(['location' => FooterMenu::LOCATION_FULL_PAGE]); ?>
