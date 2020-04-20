@@ -7,7 +7,7 @@ use humhub\widgets\FooterMenu;
 \humhub\assets\JqueryKnobAsset::register($this);
 ?>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 col-md-3">
             <?= Menu::widget(); ?>

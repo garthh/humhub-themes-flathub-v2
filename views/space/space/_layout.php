@@ -16,7 +16,7 @@ $context = $this->context;
 $space = $context->contentContainer;
 
 ?>
-<div class="container space-layout-container">
+<div class="container-fluid space-layout-container">
     <div class="row">
         <div class="col-xs-12">
             <?= Header::widget(['space' => $space]); ?>

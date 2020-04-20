@@ -8,7 +8,7 @@ use humhub\widgets\FooterMenu;
 $user = $this->context->contentContainer;
 
 ?>
-<div class="container profile-layout-container">
+<div class="container-fluid profile-layout-container">
     <div class="row">
         <div class="col-xs-12">
             <?= ProfileHeader::widget(['user' => $user]); ?>
