@@ -10,7 +10,7 @@ use humhub\widgets\FooterMenu;
 
 ?>
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-last-md col-xs-12 col-md-9 layout-content-container">
             <?= DashboardContent::widget([

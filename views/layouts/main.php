@@ -23,7 +23,7 @@
 
         <!-- start: first top navigation bar -->
         <div id="topbar-first" class="topbar">
-            <div class="space-auto-h-xs container row row-between-xs">
+            <div class="space-auto-h-xs container-fluid row row-between-xs">
                 <div class="space-in-left-zero-md space-auto-right-xs col-xs-shrink topbar-brand hidden-xs">
                     <?= \humhub\widgets\SiteLogo::widget(); ?>
                 </div>
